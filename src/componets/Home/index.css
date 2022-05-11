@@ -1,0 +1,8 @@
+.home {
+    padding: 50px 0;
+}
+
+.home__content {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.card {
+  width: 800px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px 20px 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card:last-child {
+  margin-bottom: 0px;
+}
+.card__date {
+  font-size: 22px;
+}
+
+.card__covid-data {
+  display: grid;
+  grid-template-columns: 250px 250px; 
+  grid-template-rows: 51px 51px; 
+  align-items: center;
+}
+
+.card__blank{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__amount{
+    font-weight: 700;
+    background-color: #EDF7FF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.card__amount:nth-child(odd) {
+    margin-right: 29px;
+}

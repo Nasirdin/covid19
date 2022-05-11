@@ -1,0 +1,36 @@
+.recovered {
+  width: 380px;
+  height: 450px;
+  background: #1bbc9b;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 30px 20px;
+  position: relative;
+
+}
+
+.recovered__tile {
+  font-size: 28px;
+  font-weight: 500;
+}
+.recovered__amount {
+  font-size: 70px;
+  font-weight: 700;
+}
+.recovered__date {
+  font-size: 22px;
+  font-weight: 500;
+}
+.recovered::before {
+  content: "";
+  width: 320px;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 66px;
+}
